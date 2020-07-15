@@ -1,0 +1,51 @@
+* {
+    background: aquamarine;
+}
+
+.container-search {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: calc(50%);
+    left: calc(50%);
+    transform: translate(-50%, -50%);
+}
+
+.container-search > input, button {
+    background: white;
+}
+
+.container-search > input, label {
+    font-size: 32px;
+}
+
+.container-search > * {
+    margin: 16px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 32px;
+}
+
+.invisible {
+    display: none;
+}
+
+span {
+    color: red;
+}
+
+#book {
+    margin: 16px 16px;
+}
+
+#return {
+    position: absolute;
+    left: calc(50%);
+    transform: translateX(-50%);
+}
+
+#info {
+    font-family: Consolas;
+}

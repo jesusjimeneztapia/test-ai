@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <title>TestIA</title>
+</head>
+<body>
+    <div class="container-search">
+        <label for="id_book">ID del libro que busca:</label>
+        <input id="id_book" type="number" min="1" value="1" />
+        <button id="search" onclick="search(id_book)" >Buscar</button>
+    </div>
+    <div id="book" class="invisible">
+        <p id="info"></p>
+        <button id="return" onclick="returnSearch()">Volver</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
